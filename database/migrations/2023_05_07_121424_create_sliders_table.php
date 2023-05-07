@@ -11,6 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
+        // la creation d'u table
         Schema::create('sliders', function (Blueprint $table) {   
         $table->id();
         $table->string('image')->nullable(false);
